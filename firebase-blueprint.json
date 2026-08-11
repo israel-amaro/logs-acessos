@@ -1,0 +1,17 @@
+{
+  "entities": {
+    "users": {
+      "title": "Users",
+      "description": "User profiles and roles in the system",
+      "properties": {
+        "uid": { "type": "string", "description": "User UID from Firebase Auth" },
+        "email": { "type": "string", "description": "User email address" },
+        "name": { "type": "string", "description": "Display name of the user" },
+        "role": { "type": "string", "description": "User role: admin or operator" },
+        "createdAt": { "type": "string", "description": "Timestamp ISO string of creation" },
+        "createdBy": { "type": "string", "description": "UID or email of user who created this user" }
+      },
+      "required": ["uid", "email", "role"]
+    }
+  }
+}
