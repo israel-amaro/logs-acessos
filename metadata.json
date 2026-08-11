@@ -1,6 +1,6 @@
 {
-  "name": "Remix Log Explorer - Enterprise Computer Access Logs",
-  "description": "Enterprise SaaS Log Explorer for real-time monitoring and auditing of computer access, user authentication, security severity, hostnames, and system events.",
+  "name": "Logs Acesso",
+  "description": "Logs de Acesso do Checklist SENAI - Monitoramento em tempo real",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
